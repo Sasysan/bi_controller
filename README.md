@@ -2,8 +2,9 @@
 Intallare prima il pacchetto rotors presente su git-hub :" https://github.com/ethz-asl/rotors_simulator "<br>
 Sostituire in: rotors_simulator/rotors_control/src/nodes  i "file lee_position_controller_node.cpp" e "lee_position_controller_node.h"<br>
 Sostituire in: rotors_simulator/rotors_gazebo/src il file: "hovering_example.cpp" <br>
-Sostituire in: /rotors_simulator/rotors_control/src/library il file: "lee_position_controller.cpp" <br>
+Sostituire in: rotors_simulator/rotors_control/src/library il file: "lee_position_controller.cpp" <br>
 Sostituire in : rotors_simulator/rotors_control/include/rotors_control il file : "lee_position_controller.h"<br>
+Sostituire in :rotors_simulator/rotors_gazebo/resource il file :" lee_controller_hummingbird.yaml"<br>
 Aggiungere nella cartella SRC le seguenti cartelle:bi_controller,control_layer,estimator,neural_net_py e successivamente compilare <br>
 Aggiungere la cartella Neural_net_v5 e Neural_net_v4 nella cartella Home del prorpio computer.<br>
 Si può scegliere se utilizzare Neural_net_v5 che presenta la rottura di tutti e 4 i motori oppure Neural_net_v4 che presenta la rottura solo del motore 2-4 per cambiare la rete neurale basta andare all'interno del file "listener.py" presente nella cartella neural_net_py e commentare la riga 34 e de-commentare la riga 33.<br>
